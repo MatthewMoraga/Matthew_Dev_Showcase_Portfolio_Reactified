@@ -1,0 +1,12 @@
+.portfolio-title {
+    text-align: center;
+    margin: 5px;
+}
+
+.portfolio-wrapper {
+    display: flex;
+}
+
+.portfolio-container {
+    display: flex;
+}
