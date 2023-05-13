@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* GLOBAL STYLES */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* nav styles */
+
+nav {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+
+
+nav a {
+  color: white;
+  opacity: 50%;
+  text-decoration: none;
+  margin: 0px 5px 5px 10px;
+  padding: 0px 0px 5px 0px;
+}
+/* keeps the last child style seperate */
+
+nav, a:last-child {
+  margin: 0px 5px 5px 10px;
+  padding: 0px 0px 5px 0px;
+}
+
+
+
+header nav a:focus,
+header nav a:hover {
+  color: white;
+  opacity: 100%;
+}
