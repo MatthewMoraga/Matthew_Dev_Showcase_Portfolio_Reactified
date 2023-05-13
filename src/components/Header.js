@@ -7,9 +7,9 @@ function Header() {
     <>
     <header>
       <section className="header-wrap">
-        <section className="title">
-          <h1>Matthew Moraga's</h1>
-          <h1>Cool Portfolio</h1>
+        <section className="title-wrap">
+          <h1 className="header-title">Matthew Moraga's</h1>
+          <h1 className="header-title">Cool Portfolio</h1>
         </section>
         <nav>
           <Link as={Link} to="portfolio/about" className="hover-underline-animation">About Me</Link>
