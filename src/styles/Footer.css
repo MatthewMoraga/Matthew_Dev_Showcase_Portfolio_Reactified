@@ -1,0 +1,42 @@
+footer {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #222;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    cursor: default;
+}
+
+.links-wrapper {
+    display: flex;
+}
+
+.link-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-card, a {
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+#root > main > main > footer > div > section > div:nth-child(1) > a.icon.GitHub > svg {
+    height: 50px;
+}
+
+#root > main > main > footer > div > section > div:nth-child(2) > a.icon.Gmail > svg {
+    height: 50px;
+
+}
