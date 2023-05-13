@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Header/>
           <Routes>
-            <Route path="portfolio/" element={<About />} className="hover-underline-animation"/>
+            <Route path="/" element={<About />} className="hover-underline-animation"/>
             <Route path="portfolio/about" element={<About />} className="hover-underline-animation"/>
             <Route path="portfolio/portfolio" element={<Portfolio />} className="hover-underline-animation"/>
             <Route path="portfolio/resume" element={<Resume />} className="hover-underline-animation"/>
