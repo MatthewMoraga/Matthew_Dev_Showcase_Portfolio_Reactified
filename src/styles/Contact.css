@@ -72,15 +72,27 @@
     border-radius: 2px;
     padding: 0px 0px 0px 5px;
 }
-.email-box {
+
+.email-wrapper {
     display: flex;
     justify-content: center;
+}
+.email-box {
+    display: flex;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 2px;
     align-items: center;
-    margin: 5px 0px 5px 0px;
-    font-size: 25px;
+    margin: 5px 0px;
+    font-size: 20px;
     background-color: blue;
     color: white;
     height: 100px;
+    width: 350px;
+}
+
+.box-shadow-email {
+    box-shadow: 0px 0px 5px 5px blue;
 }
 
 .box-shadow-form {
