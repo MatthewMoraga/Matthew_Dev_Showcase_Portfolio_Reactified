@@ -136,7 +136,10 @@ function Contact() {
 
         </section>
       </section>
-          <h1 className="email-box">Email: matthewmoraga90@gmail.com</h1>
+      <section className="email-wrapper">
+          <h1 className="email-box box-shadow-email">Email: matthewmoraga90@gmail.com</h1>
+
+      </section>
     </main>
   )
 }
