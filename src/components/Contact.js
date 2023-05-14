@@ -70,7 +70,7 @@ function Contact() {
       <section className="form-section">
         <section className="form-wrapper">
           <form onSubmit={handleSubmit} noValidate className="contact-form">
-            <fieldset className="contact-field">
+            <fieldset className="contact-field box-shadow-form">
               <legend className="contact-legend">Contact Form</legend>
 
               {messageSent && (
@@ -117,6 +117,7 @@ function Contact() {
                 onChange={handleMessageInput}
                 rows="10"
                 style={{ resize: "none" }}
+                id="contact-textarea"
                 className={messageError ? "is-invalid" : ""}
                 placeholder="enter your message"
               ></textarea>
@@ -132,8 +133,10 @@ function Contact() {
             </fieldset>
           </form>
 
+
         </section>
       </section>
+          <h1 className="email-box">Email: matthewmoraga90@gmail.com</h1>
     </main>
   )
 }

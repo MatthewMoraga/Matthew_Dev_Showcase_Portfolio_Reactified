@@ -5,7 +5,7 @@ import '../styles/Header.css';
 function Header() {
   return (
     <>
-    <header>
+    <header className="">
       <section className="header-wrap">
         <section className="title-wrap">
           <h1 className="header-title">Matthew Moraga's</h1>
