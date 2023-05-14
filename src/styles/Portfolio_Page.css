@@ -1,12 +1,26 @@
 .portfolio-title {
     text-align: center;
-    margin: 5px;
-}
-
-.portfolio-wrapper {
-    display: flex;
 }
 
 .portfolio-container {
     display: flex;
+    justify-content: center;
+    background-color: beige;
 }
+
+
+@media (max-width: 600px) {
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

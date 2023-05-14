@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: wheat;
 }
 
 code {
@@ -50,25 +51,41 @@ nav {
   justify-content: flex-end;
 }
 
-
 nav a {
   color: white;
   opacity: 50%;
   text-decoration: none;
-  margin: 0px 5px 5px 10px;
+  margin: 5px 5px 5px 10px;
   padding: 0px 0px 5px 0px;
 }
 /* keeps the last child style seperate */
 
 nav, a:last-child {
-  margin: 0px 5px 5px 10px;
+  margin: 5px 5px 5px 10px;
   padding: 0px 0px 5px 0px;
 }
-
-
 
 header nav a:focus,
 header nav a:hover {
   color: white;
   opacity: 100%;
+}
+
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    position: relative;
+    margin: 5px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  nav {
+    display: flex;
+    position: relative;
+    margin: 5px;
+    justify-content: center;
+  }
 }

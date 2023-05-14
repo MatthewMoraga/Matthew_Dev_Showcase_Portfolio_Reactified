@@ -23,7 +23,7 @@ function Footer() {
 
 
    <main>
-      <footer>
+      <footer className="footer">
         <div className="footer-wrapper">
           <h1>Socials</h1>
           <section className="links-wrapper">
@@ -52,12 +52,12 @@ function Footer() {
         </div>
 
       </footer>
+   </main>
 
         
 
 
 
-   </main>
   )
 }
 

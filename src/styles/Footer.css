@@ -4,7 +4,6 @@ footer {
     justify-content: center;
     bottom: 0;
     width: 100%;
-    padding: 10px;
     background-color: #222;
 }
 
@@ -39,4 +38,30 @@ footer {
 #root > main > main > footer > div > section > div:nth-child(2) > a.icon.Gmail > svg {
     height: 50px;
 
+}
+
+
+@media (max-width: 600px) {
+    footer {
+        margin: 5px 0px 0px 0px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        width: 100%;
+        background-color: #222;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    footer {
+        margin: 5px 0px 0px 0px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        width: 100%;
+        background-color: #222;
+    }
+    
+ 
 }

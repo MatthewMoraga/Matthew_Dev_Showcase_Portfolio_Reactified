@@ -10,7 +10,7 @@ function Project (props) {
                     <div className="card">
                         <h1 className="card-title">{props.title}</h1>
                         <a href={props.deployment} target="_blank" rel="nonreferrer">
-                            <img src={props.imageSource} alt={props.imgAlt}/>
+                            <img className="project-image" src={props.imageSource} alt={props.imgAlt}/>
                         </a>
                         <div className="card-body">
                             <p className="card-text">{props.description}</p>
